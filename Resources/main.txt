@@ -1,1 +1,4 @@
+1.  https://cs.stanford.edu/people/jure/
+2. https://github.com/Satyam1609/Signed-Graph-Contrastive-Learning/tree/main
 
+3. https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853/
