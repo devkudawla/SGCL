@@ -1,0 +1,48 @@
+
+
+
+-----------------
+Questions :
+-> meaning of that leverage statement is it about current
+
+-> what different we are doing in comparison to current method to tackle noise problem
+
+->idea about how gcl works for Unsigned graph
+if answer does not include augmentation page 1672 (.... existing graph .......)
+
+
+-> what is this contrast augmented graph
+
+-> SGCL integrates supervised learning (from labeled data) with contrastive objectives to optimize the model. The supervised labels provide additional information to guide the learning process, especially when labeled data for specific tasks (like link prediction or node classification) is available. (from where this supervised learning came into play)
+
+->how we are making sure that while augmentation of graph we are not changing real relationships between the ndoes
+ is it theory driven augmentation? // structural balance theory
+
+
+
+-> how you got hi without doing anything 
+
+
+->a image to properly show architecture whether these aggregation layers are independent or not
+
+-> how we are going to do the augmentation
+
+-> formula for inter pos :why it includes multiple nodes instead of multiple augments
+
+-> why make representation similar to +ve part
+-> check it out :
+
+Contrastive Objective Optimization:
+After obtaining embeddings for the graph’s nodes using a GNN, the contrastive learning framework takes over. The GNN-generated embeddings are used in a contrastive objective to:
+Pull together positive node pairs (nodes that should be close).
+Push apart negative node pairs (nodes that should be distant).
+
+-> gpt's answer to this so we will be combining embeddings from different gnns
+
+
+ 
+=============
+may be answered later
+->how making sure of inter view contrast
+
+-> in gnn we have aggregation layer and in agg layer we have attention module
